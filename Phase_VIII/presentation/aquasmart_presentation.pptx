@@ -1,0 +1,138 @@
+AQUASMART: Dynamic Soil-Based Water Allocation System
+
+Final Capstone Project Presentation
+
+Student: Uwineza Delphine
+ID: 27897
+Course: Database Development with PL/SQL
+Lecturer: Eric Maniraquha
+Date: December 2025
+AUCA - Adventist University of Central Africa
+
+The Challenge:
+• Traditional irrigation wastes 30-50% of water
+• Fixed schedules ignore actual soil needs
+• Manual monitoring is labor-intensive
+• No data-driven decision making
+
+Impact:
+• Water scarcity in agricultural regions
+• Reduced crop yields
+• Increased operational costs
+• Environmental strain
+
+AquaSmart Solution:
+• Real-time soil moisture monitoring
+• Automated, precise irrigation control
+• Data-driven decision making
+• 40-60% water savings
+
+Key Features:
+1. Sensor-based monitoring
+2. PL/SQL intelligent control
+3. Automated valve activation
+4. Comprehensive logging
+5. Business intelligence
+
+8-TABLE ARCHITECTURE:
+
+Core Tables (4):
+• FARM_ZONES - Irrigation areas
+• SENSOR_DATA - Real-time readings  
+• IRRIGATION_VALVES - Control system
+• IRRIGATION_LOGS - Historical data
+
+Phase VII Tables (4):
+• EMPLOYEES - User management
+• EMPLOYEE_SALARY - Sensitive data
+• HOLIDAYS - Business rule dates
+• AUDIT_LOG - Security tracking
+
+AUTOMATED IRRIGATION WORKFLOW:
+
+1. Sensor Reading → Database
+2. PL/SQL Analysis → Water Deficit Calculation
+3. Decision Making → Activate/Deactivate
+4. Valve Control → Precise Watering
+5. Logging → Audit Trail + Analytics
+
+PL/SQL COMPONENTS:
+
+Procedures (5):
+• activate_irrigation()
+• process_sensor_data()  
+• generate_daily_report()
+• manage_holidays()
+• log_audit_entry()
+
+Functions (4):
+• calculate_water_deficit()
+• is_operation_restricted()
+• get_irrigation_efficiency()
+• is_holiday_today()
+
+Packages (3):
+• AQUASMART_CONTROL_PKG
+• AQUASMART_SECURITY_PKG  
+• AQUASMART_AUDIT_PKG
+
+CRITICAL BUSINESS RULE:
+
+Restriction: Employees with 'S' usernames cannot:
+• INSERT/UPDATE/DELETE on weekdays (Mon-Fri)
+• Perform operations on public holidays
+• All attempts logged in AUDIT_LOG
+
+Implementation:
+1. HOLIDAYS table management
+2. Compound trigger enforcement
+3. Comprehensive audit logging
+4. 10 test cases validation
+
+KEY PERFORMANCE INDICATORS:
+
+1. Water Efficiency Ratio: >90%
+2. Irrigation Accuracy: >95%  
+3. System Uptime: >99.5%
+4. Water Savings: 40% reduction
+5. Energy Consumption: <2.5 kWh/event
+
+Dashboards:
+• Executive Overview
+• Operational Control
+• Analytics & Reporting
+• Audit & Security
+
+VALIDATION RESULTS:
+
+Data Volume:
+• 8 tables created
+• 100-500 rows per table
+• Realistic test data
+
+Testing:
+• All PL/SQL components tested
+• Phase VII restrictions validated
+• Audit logging verified
+• Performance optimized
+
+ACHIEVEMENTS:
+1. Complete PL/SQL database solution
+2. Phase VII business rule implemented
+3. Comprehensive audit system
+4. Business intelligence ready
+5. Production-ready code quality
+
+LESSONS LEARNED:
+• Requirements-driven design
+• Thorough testing is essential
+• Documentation saves time
+• Oracle PL/SQL is powerful
+
+FUTURE ENHANCEMENTS:
+• Mobile application
+• Weather API integration
+• Machine learning predictions
+• IoT sensor expansion
+
+THANK YOU & QUESTIONS?
