@@ -5,10 +5,10 @@ Dynamic Soil-Based Water Allocation System - PL/SQL Capstone Project
 ## 👤 Student Information
 - **Name:** Uwineza Delphine
 - **ID:** 27897
-- **Group:** D
+- **Group:** D(Thur)
 - **Course:** Database Development with PL/SQL (INSY 8311)
 - **University:** Adventist University of Central Africa (AUCA)
-- **Lecturer:** Eric Maniraquha
+- **Lecturer:** Eric Maniraguha
 - **Academic Year:** 2025-2026 | Semester I
 
 ## 📋 Project Overview
